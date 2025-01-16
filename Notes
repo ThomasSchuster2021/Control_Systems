@@ -1,0 +1,13 @@
+% negative on scope is clockwise
+% Positive on scope is counterclockwise
+% 4096 counts per rev
+% Roll over around 16 pi or 8 rev
+% 0.12 min for moving motor Inconsistent, keep above 0.2
+% negative is positive on the scope, thus counterclockwise
+% Positive is negative on the scope, thus clockwise
+% There is a positive drift in the finction generator, the higher the
+% frequency the greater the drift
+% Too high of a frequency causes signal to be lost, the more voltage
+% provided the higher maximum frequency.
+% Higher number in the transfer funtion causes over correcting
+% when tating a derivative, throw in a 100/s+100 transfer function
